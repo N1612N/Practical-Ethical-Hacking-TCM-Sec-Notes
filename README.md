@@ -1,2 +1,4 @@
-# Practical-Ethical-Hacking---TCM-Sec---Notes
-Ethical Hacker Methodology notes
+
+Course is not fully covered in this documentation as basics are alot studies earlier.
+I ll be covering only the Ethical Hacker Methodology.
+
