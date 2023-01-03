@@ -20,6 +20,7 @@ $ hashcat -m 5600 <hashfile.txt> <passwordlist:rockyou.txt> -O
 
 
 
+ Impacket versions > 0.9.19 are unstable and causing issues for students and pentesters alike. Try purging impacket completely and downloading 0.9.19 from here: [https://github.com/SecureAuthCorp/impacket/releases](https://github.com/SecureAuthCorp/impacket/releases)
 
 
 
@@ -33,4 +34,4 @@ $ hashcat -m 5600 <hashfile.txt> <passwordlist:rockyou.txt> -O
 
 
 
-#### Referece: https://medium.com/@adam.toscher/top-five-ways-i-got-domain-admin-on-your-internal-network-before-lunch-2018-edition-82259ab73aaa
+
