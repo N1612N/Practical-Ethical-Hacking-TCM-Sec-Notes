@@ -1,4 +1,7 @@
 
-Course is not fully covered in this documentation.
-Covering only the Hacker Methodology.
+Course coverage of Practical Ethical Hacking by TCM Security.
+
+Course is now covered completely.
+
+Basic notes on heaths sessions for self understanding.
 

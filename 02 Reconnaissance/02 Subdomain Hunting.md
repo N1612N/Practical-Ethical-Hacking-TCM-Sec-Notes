@@ -18,5 +18,5 @@ $ sublist3r -d <target.com>
 
 ```sh 
 #help
-help httprobe tool by tomnomnom to probe the subdomains enumerated and collect only the live domains
+use httprobe tool by tomnomnom to probe the subdomains enumerated and collect only the live domains
 ```
